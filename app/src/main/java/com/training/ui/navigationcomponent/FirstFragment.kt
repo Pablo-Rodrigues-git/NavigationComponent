@@ -13,7 +13,7 @@ class FirstFragment : Fragment(R.layout.fragment_first) {
 
         view.findViewById<CardView>(R.id.cardId).setOnClickListener {
 
-            findNavController().navigate(R.id.fromFirstFragmentToSecondFragment)
+            findNavController().navigate(R.id.fromFirstToSecond)
 
         }
 
